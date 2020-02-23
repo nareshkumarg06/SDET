@@ -54,5 +54,7 @@
 	<classpathentry kind="lib" path="D:/JavaSeleniumAssignment/selenium-firefox-driver-2.4.0.jar.zip"/>
 	<classpathentry kind="lib" path="D:/JavaSeleniumAssignment/selenium-java-3.141.59.zip"/>
 	<classpathentry kind="lib" path="D:/JavaSeleniumAssignment/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSeleniumAssignment/log4j-api-2.13.0.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSeleniumAssignment/log4j-core-2.13.0.jar"/>
 	<classpathentry kind="output" path="bin/default"/>
 </classpath>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [SDET Automation Assignment Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SDET Automation Test Cases(failed)">
     <classes>
-      <class name="com.sdet.testcases.LoginPageTest">
+      <class name="com.sdet.testcases.OrderPlacement">
         <methods>
-          <include name="setUp"/>
-          <include name="homePageTest"/>
-          <include name="loginTest"/>
-          <include name="endtoendTest"/>
           <include name="closeBrowser"/>
+          <include name="endtoendTest"/>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+          <include name="homePageTest"/>
         </methods>
-      </class> <!-- com.sdet.testcases.LoginPageTest -->
+      </class> <!-- com.sdet.testcases.OrderPlacement -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- SDET Automation Test Cases(failed) -->
+</suite> <!-- Failed suite [SDET Automation Assignment Test Suite] -->

@@ -10,8 +10,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-//import org.apache.log4j.Logger;
-//import org.testng.log4testng.Logger;
+import org.apache.log4j.Logger;
 
 import com.sdet.base.BasePage;
 import com.sdet.pages.AllFurniturePage;
@@ -34,7 +33,7 @@ public class OrderPlacement extends BasePage {
 	
 
 	WebDriver driver;
-//	Logger log = Logger.getLogger(LoginPageTest.class);
+	Logger log = Logger.getLogger(OrderPlacement.class.getName());
 
 	public OrderPlacement() {
 		super();
@@ -52,18 +51,20 @@ public class OrderPlacement extends BasePage {
 	@Test(priority=1)
 	public void loginTest() throws InterruptedException, IOException {
 		
-		//log.info("*************************Starting Test Case - loginTest***************************");
+		log.info("*************************Starting Test Case - loginTest***************************");
 		
 		loginPage = new LoginPage();
 		homePage.homesignInClick();
 		loginPage.login(getProp().getProperty("username"), "Test@123");
 		Thread.sleep(1000);
-		//log.info("*************************Ending Test Case - loginTest***************************");
+		log.info("*************************Ending Test Case - loginTest***************************");
 	}
 	
 	@Test(priority=2)
 	public void homePageTest() throws InterruptedException, IOException {
+		log.info("*************************Starting Test Case - HomeTest***************************");
 		homePage.homePageTest();
+		log.info("*************************Starting Test Case - HomeTest***************************");
 	//Thread.sleep(1000);
 	}
 	

@@ -1,2 +1,16 @@
 2020-02-23 15:40:58 INFO  OrderPlacement:54 - *************************Starting Test Case - loginTest***************************
 2020-02-23 15:41:00 INFO  OrderPlacement:60 - *************************Ending Test Case - loginTest***************************
+2020-02-23 17:47:40 INFO  OrderPlacement:54 - *************************Starting Test Case - loginTest***************************
+2020-02-23 17:47:43 INFO  OrderPlacement:59 - *************************Ending Test Case - loginTest***************************
+2020-02-23 17:47:43 INFO  OrderPlacement:65 - *************************Starting Test Case - HomeTest***************************
+2020-02-23 17:47:44 INFO  OrderPlacement:67 - *************************Starting Test Case - HomeTest***************************
+2020-02-23 17:47:51 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2020-02-23 17:47:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2020-02-23 17:47:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-02-23 17:47:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-02-23 17:47:51 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Hello/.gradle/caches/modules-2/files-2.1/com.relevantcodes/extentreports/2.41.2/f3cfee1e734668ac4e3574a9b47ad735476b4b04/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-02-23 17:47:52 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2020-02-23 17:47:52 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2020-02-23 17:47:52 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-02-23 17:47:52 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-02-23 17:47:52 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Hello/.gradle/caches/modules-2/files-2.1/com.relevantcodes/extentreports/2.41.2/f3cfee1e734668ac4e3574a9b47ad735476b4b04/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

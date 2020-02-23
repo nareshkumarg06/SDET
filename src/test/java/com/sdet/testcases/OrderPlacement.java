@@ -23,7 +23,7 @@ import com.sdet.pages.PaymentPage;
 import com.sdet.pages.ProductDetailsPage;
 import com.sdet.util.TestUtil;
 
-public class LoginPageTest extends BasePage {
+public class OrderPlacement extends BasePage {
 	LoginPage loginPage;
 	HomePage homePage;
 	ChairPage chairPage;
@@ -36,7 +36,7 @@ public class LoginPageTest extends BasePage {
 	WebDriver driver;
 //	Logger log = Logger.getLogger(LoginPageTest.class);
 
-	public LoginPageTest() {
+	public OrderPlacement() {
 		super();
 		System.out.println("Completed Super method");
 	}

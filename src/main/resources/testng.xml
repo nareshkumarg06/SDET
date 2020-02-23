@@ -6,7 +6,7 @@
        
   <test name="SDET Automation Test Cases">
 	 <classes>
-	   <class name="com.sdet.testcases.LoginPageTest"/>
+	   <class name="com.sdet.testcases.OrderPlacement"/>
 	 </classes>
    </test>
 </suite>

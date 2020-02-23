@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="bin/main" path="src/main/java">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="bin/main" path="src/main/resources">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="bin/test" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="bin/test" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-13/">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/JavaSeleniumAssignment/apache-groovy-sdk-3.0.0.zip"/>
+	<classpathentry kind="lib" path="D:/JavaSeleniumAssignment/apache-log4j-2.13.0-bin.zip"/>
+	<classpathentry kind="lib" path="D:/JavaSeleniumAssignment/chromedriver_win32.zip"/>
+	<classpathentry kind="lib" path="D:/JavaSeleniumAssignment/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSeleniumAssignment/commons-lang3-3.9.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSeleniumAssignment/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSeleniumAssignment/geckodriver-v0.26.0-win64.zip"/>
+	<classpathentry kind="lib" path="D:/JavaSeleniumAssignment/groovy-all-2.4.18.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSeleniumAssignment/guava-22.0.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSeleniumAssignment/httpclient-4.5.11.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSeleniumAssignment/httpcore-4.4.13.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSeleniumAssignment/httpmime-4.5.11.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSeleniumAssignment/IEDriverServer_Win32_3.150.1.zip"/>
+	<classpathentry kind="lib" path="D:/JavaSeleniumAssignment/javax.mail-api-1.5.5.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSeleniumAssignment/jaxb-api-2.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSeleniumAssignment/log4j-1.2.17.zip"/>
+	<classpathentry kind="lib" path="D:/JavaSeleniumAssignment/rest-assured-4.2.0-dist.zip"/>
+	<classpathentry kind="lib" path="D:/JavaSeleniumAssignment/resteasy-multipart-provider-4.4.2.Final.jar"/>
+	<classpathentry kind="lib" path="D:/JavaSeleniumAssignment/selenium-firefox-driver-2.4.0.jar.zip"/>
+	<classpathentry kind="lib" path="D:/JavaSeleniumAssignment/selenium-java-3.141.59.zip"/>
+	<classpathentry kind="lib" path="D:/JavaSeleniumAssignment/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="output" path="bin/default"/>
+</classpath>

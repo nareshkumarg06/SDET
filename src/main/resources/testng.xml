@@ -9,7 +9,7 @@
        
   <test name="SDET Automation Test Cases">
 	 <classes>
-	   <class name="com.sdet.testcases.OrderPlacement"/>
+	   <class name="com.sdet.testcases.OrderPlacementDBValidation"/>
 	 </classes>
-   </test>
+   </test>   
 </suite>

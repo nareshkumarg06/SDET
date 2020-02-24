@@ -27,8 +27,6 @@ public class BasePage{
 	public BasePage() {
 		try {
 			setProp(new Properties());
-			// String userdir = System.getProperty("user.dir +
-			// "/SDETAssignment/src/main/java/com/sdet/config/config.properties");
 			FileInputStream inputstrm = new FileInputStream(
 					"D:\\SeleniumProject\\SeleniumProject\\src\\main\\java\\com\\mtsdet\\config\\config.properties");
 			getProp().load(inputstrm);
@@ -74,7 +72,7 @@ public class BasePage{
 		eventListener = new WebEventListener();
 		el_driver.register(eventListener);
 		driver = el_driver;
-
+		
 		getDriver().manage().timeouts().implicitlyWait(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 		getDriver().manage().window().maximize();
 		getDriver().manage().deleteAllCookies();
@@ -83,7 +81,8 @@ public class BasePage{
 	}
 	
 	public static void closebroswer()	{
-		getDriver().quit();
+		//getDriver().quit();
+		getDriver().close();
 		
 	}
 

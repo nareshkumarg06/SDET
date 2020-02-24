@@ -21,6 +21,7 @@ import com.sdet.pages.OrderDetailsPage;
 import com.sdet.pages.PaymentPage;
 import com.sdet.pages.ProductDetailsPage;
 import com.sdet.util.TestUtil;
+import com.sdet.ExtentReporterNG.ExtentReportNG;
 
 public class OrderPlacement extends BasePage {
 	LoginPage loginPage;

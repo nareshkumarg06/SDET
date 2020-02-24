@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.sdet.testcases.LoginPageTest">
+      <class name="com.sdet.testcases.DBConnectionTest">
         <methods>
-          <include name="setUp"/>
-          <include name="homePageTest"/>
-          <include name="loginTest"/>
-          <include name="endtoendTest"/>
-          <include name="closeBrowser"/>
+          <include name="connectToDB"/>
         </methods>
-      </class> <!-- com.sdet.testcases.LoginPageTest -->
+      </class> <!-- com.sdet.testcases.DBConnectionTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

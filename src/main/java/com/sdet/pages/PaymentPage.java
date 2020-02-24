@@ -2,6 +2,7 @@ package com.sdet.pages;
 
 import java.io.IOException;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -24,6 +25,13 @@ public class PaymentPage extends BasePage {
 	
 	@FindBy(xpath = "//button[@class='btn btn-success']")
 	WebElement orderconfmsg;
+	
+	@FindBy(xpath ="/html/body/app-root/bmf-layout/div[2]/app-payment-layout/div/p-card/div/div/div/div/h3")
+	WebElement orderNumber;
+	
+	String OrderNo;
+
+	private String a;
 	
 	// WebDriver driver;
 	public PaymentPage() {
@@ -49,5 +57,14 @@ public class PaymentPage extends BasePage {
 //		WebDriverWait wait= new WebDriverWait(getDriver(), 10);
 //		wait.until(ExpectedConditions.invisibilityOfAllElements(orderconfmsg));
 	}
+	}
+	public void CaptureOrderNo() {
+		String OrderNo = orderNumber.getText();
+		String strArray[];    //declaring array
+		strArray = new String[20];
+		strArray = OrderNo.split(" ");
+		 for (String a : strArray) 
+	        System.out.println(a);
+		OrderNo = strArray[strArray.length-1];
 	}
 }

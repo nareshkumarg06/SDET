@@ -102,17 +102,17 @@
                     <div class="method-list-content passed suite-SDET_Automation_Assignment_Test_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SDET_Automation_Assignment_Test_Suite" title="com.sdet.testcases.OrderPlacement" class="method navigator-link" hash-for-method="endtoendTest">endtoendTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SDET_Automation_Assignment_Test_Suite" title="com.sdet.testcases.OrderPlacementDBValidation" class="method navigator-link" hash-for-method="endtoendTest">endtoendTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SDET_Automation_Assignment_Test_Suite" title="com.sdet.testcases.OrderPlacement" class="method navigator-link" hash-for-method="homePageTest">homePageTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SDET_Automation_Assignment_Test_Suite" title="com.sdet.testcases.OrderPlacementDBValidation" class="method navigator-link" hash-for-method="homePageTest">homePageTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SDET_Automation_Assignment_Test_Suite" title="com.sdet.testcases.OrderPlacement" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SDET_Automation_Assignment_Test_Suite" title="com.sdet.testcases.OrderPlacementDBValidation" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-SDET_Automation_Assignment_Test_Suite -->
@@ -130,7 +130,7 @@
           <div class="suite-SDET_Automation_Assignment_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.sdet.testcases.OrderPlacement</span>
+              <span class="class-name">com.sdet.testcases.OrderPlacementDBValidation</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -166,9 +166,12 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;SDET Automation Assignment Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.sdet.ExtentReporterNG.ExtentReportNG&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;SDET Automation Test Cases&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.sdet.testcases.OrderPlacement&quot;/&gt;
+      &lt;class name=&quot;com.sdet.testcases.OrderPlacementDBValidation&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- SDET Automation Test Cases --&gt;
 &lt;/suite&gt; &lt;!-- SDET Automation Assignment Test Suite --&gt;
@@ -211,21 +214,21 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'endtoendTest')
-data.setCell(0, 2, 'com.sdet.testcases.OrderPlacement')
-data.setCell(0, 3, 5412);
+data.setCell(0, 2, 'com.sdet.testcases.OrderPlacementDBValidation')
+data.setCell(0, 3, 9261);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'loginTest')
-data.setCell(1, 2, 'com.sdet.testcases.OrderPlacement')
-data.setCell(1, 3, 2428);
+data.setCell(1, 2, 'com.sdet.testcases.OrderPlacementDBValidation')
+data.setCell(1, 3, 3394);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'homePageTest')
-data.setCell(2, 2, 'com.sdet.testcases.OrderPlacement')
-data.setCell(2, 3, 876);
+data.setCell(2, 2, 'com.sdet.testcases.OrderPlacementDBValidation')
+data.setCell(2, 3, 1315);
 window.suiteTableData['SDET_Automation_Assignment_Test_Suite']= { tableData: data, tableDiv: 'times-div-SDET_Automation_Assignment_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-SDET_Automation_Assignment_Test_Suite">
               </div> <!-- times-div-SDET_Automation_Assignment_Test_Suite -->
             </div> <!-- times-div -->
@@ -251,26 +254,26 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.sdet.testcases.OrderPlacement</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.sdet.testcases.OrderPlacementDBValidation</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">loginTest</span>
-                <span class="method-start">12804 ms</span>
+                <span class="method-start">13970 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">homePageTest</span>
-                <span class="method-start">15257 ms</span>
+                <span class="method-start">17373 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">endtoendTest</span>
-                <span class="method-start">16136 ms</span>
+                <span class="method-start">18692 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">21551 ms</span>
+                <span class="method-start">27956 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

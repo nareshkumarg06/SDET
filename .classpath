@@ -56,5 +56,6 @@
 	<classpathentry kind="lib" path="D:/JavaSeleniumAssignment/selenium-server-standalone-3.141.59.jar"/>
 	<classpathentry kind="lib" path="D:/JavaSeleniumAssignment/log4j-api-2.13.0.jar"/>
 	<classpathentry kind="lib" path="D:/JavaSeleniumAssignment/log4j-core-2.13.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Hello/Downloads/extentreports-2.41.2.jar"/>
 	<classpathentry kind="output" path="bin/default"/>
 </classpath>

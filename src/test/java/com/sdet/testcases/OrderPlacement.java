@@ -21,6 +21,7 @@ import com.sdet.pages.OrderDetailsPage;
 import com.sdet.pages.PaymentPage;
 import com.sdet.pages.ProductDetailsPage;
 import com.sdet.util.TestUtil;
+import com.sdet.ExtentReporterNG.ExtentReportNG;
 
 public class OrderPlacement extends BasePage {
 	LoginPage loginPage;
@@ -34,7 +35,7 @@ public class OrderPlacement extends BasePage {
 
 	WebDriver driver;
 	Logger log = Logger.getLogger(OrderPlacement.class.getName());
-
+	
 	public OrderPlacement() {
 		super();
 		System.out.println("Completed Super method");
@@ -52,7 +53,6 @@ public class OrderPlacement extends BasePage {
 	public void loginTest() throws InterruptedException, IOException {
 		
 		log.info("*************************Starting Test Case - loginTest***************************");
-		
 		loginPage = new LoginPage();
 		homePage.homesignInClick();
 		loginPage.login(getProp().getProperty("username"), "Test@123");
@@ -62,6 +62,7 @@ public class OrderPlacement extends BasePage {
 	
 	@Test(priority=2)
 	public void homePageTest() throws InterruptedException, IOException {
+		
 		log.info("*************************Starting Test Case - HomeTest***************************");
 		homePage.homePageTest();
 		log.info("*************************Starting Test Case - HomeTest***************************");

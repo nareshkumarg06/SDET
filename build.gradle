@@ -39,6 +39,8 @@ dependencies {
 	compile group: 'com.aventstack', name: 'extentreports', version: '2.41.2'
 	// https://mvnrepository.com/artifact/com.relevantcodes/extentreports
     compile group: 'com.relevantcodes', name: 'extentreports', version: '2.41.2'
+	// https://mvnrepository.com/artifact/mysql/mysql-connector-java
+	compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.19'
 	
 
 	

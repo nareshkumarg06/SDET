@@ -12,9 +12,6 @@ import com.sdet.base.BasePage;
 
 public class WebEventListener extends BasePage implements WebDriverEventListener {
 
-	public void afterChangeValueOf(WebElement element, WebDriver driver) {
-
-	}
 
 	public void afterClickOn(WebElement element, WebDriver driver) {
 		System.out.println("Clicked on : " + element.toString());
@@ -22,7 +19,7 @@ public class WebEventListener extends BasePage implements WebDriverEventListener
 	}
 
 	public void afterFindBy(By arg0, WebElement element, WebDriver driver) {
-
+		System.out.println("WebElement found: " + element.toString());
 	}
 
 	public void afterNavigateBack(WebDriver driver) {
@@ -30,17 +27,11 @@ public class WebEventListener extends BasePage implements WebDriverEventListener
 
 	}
 
-	public void afterNavigateForward(WebDriver driver) {
-
-	}
-
 	public void afterNavigateTo(String url, WebDriver driver) {
 		System.out.println("Navigated to : " + url + "'");
 	}
 
-	public void afterScript(String url, WebDriver driver) {
 
-	}
 
 	public void beforeChangeValueOf(WebElement element, WebDriver driver) {
 
@@ -52,26 +43,6 @@ public class WebEventListener extends BasePage implements WebDriverEventListener
 		System.out.println("Trying to click on : " + element.toString());
 	}
 
-	public void beforeFindBy(By arg0, WebElement element, WebDriver driver) {
-
-	}
-
-	public void beforeNavigateBack(WebDriver driver) {
-
-	}
-
-	public void beforeNavigateForward(WebDriver driver) {
-
-	}
-
-	public void beforeNavigateTo(String url, WebDriver driver) {
-
-	}
-
-	public void beforeScript(String element, WebDriver driver) {
-
-	}
-
 	public void onException(Throwable error, WebDriver driver) {
 		System.out.println("Exception occured :" + error);
 		try {
@@ -81,77 +52,125 @@ public class WebEventListener extends BasePage implements WebDriverEventListener
 			e.printStackTrace();
 
 		}
+}
 
+	@Override
+	public void beforeAlertAccept(WebDriver driver) {
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
 	public void afterAlertAccept(WebDriver driver) {
-
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
 	public void afterAlertDismiss(WebDriver driver) {
-
-	}
-
-	@Override
-	public void afterChangeValueOf(WebElement element, WebDriver driver, CharSequence[] arg2) {
-
-	}
-
-	@Override
-	public <X> void afterGetScreenshotAs(OutputType<X> arg0, X arg1) {
-
-	}
-
-	@Override
-	public void afterGetText(WebElement element, WebDriver driver, String url) {
-
-	}
-
-	@Override
-	public void afterNavigateRefresh(WebDriver driver) {
-
-	}
-
-	@Override
-	public void afterSwitchToWindow(String url, WebDriver driver) {
-
-	}
-
-	@Override
-	public void beforeAlertAccept(WebDriver driver) {
-
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
 	public void beforeAlertDismiss(WebDriver driver) {
-
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
-	public void beforeChangeValueOf(WebElement element, WebDriver driver, CharSequence[] arg2) {
-
+	public void beforeNavigateTo(String url, WebDriver driver) {
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
-	public <X> void beforeGetScreenshotAs(OutputType<X> arg0) {
-
+	public void beforeNavigateBack(WebDriver driver) {
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
-	public void beforeGetText(WebElement element, WebDriver driver) {
+	public void beforeNavigateForward(WebDriver driver) {
+		// TODO Auto-generated method stub
+		
+	}
 
+	@Override
+	public void afterNavigateForward(WebDriver driver) {
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
 	public void beforeNavigateRefresh(WebDriver driver) {
-
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
-	public void beforeSwitchToWindow(String url, WebDriver driver) {
-
+	public void afterNavigateRefresh(WebDriver driver) {
+		// TODO Auto-generated method stub
+		
 	}
 
+	@Override
+	public void beforeChangeValueOf(WebElement element, WebDriver driver, CharSequence[] keysToSend) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void afterChangeValueOf(WebElement element, WebDriver driver, CharSequence[] keysToSend) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void beforeScript(String script, WebDriver driver) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void afterScript(String script, WebDriver driver) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void beforeSwitchToWindow(String windowName, WebDriver driver) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void afterSwitchToWindow(String windowName, WebDriver driver) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public <X> void beforeGetScreenshotAs(OutputType<X> target) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public <X> void afterGetScreenshotAs(OutputType<X> target, X screenshot) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void beforeGetText(WebElement element, WebDriver driver) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void afterGetText(WebElement element, WebDriver driver, String text) {
+		// TODO Auto-generated method stub
+		
+	}
 }
